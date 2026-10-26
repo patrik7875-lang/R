@@ -1,0 +1,137 @@
+(footprint "SSRH7H-M20016"
+	(version 20260831)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(property "Reference" "SSRH7H-M20016"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "36d8cd08-422a-4e75-9ddc-78b084ff9f36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SSRH7H-M20016"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b60ca889-232a-4277-acee-4a4953c3843a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d63b833-f28a-4f88-984c-fb5b12eb7781")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0059c4a8-b6d4-4d2e-a0f5-939ce8769b30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -7.25 -9)
+		(end 7.25 9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0ea4b8d0-e818-4c92-af70-5c74e45c1ec3")
+	)
+	(fp_text user "SSRH7H-M20016"
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5b682840-dff8-4485-8f89-a95645fe7b4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 -6.5)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a0478b0-e1b1-479c-94dd-273ce5e05278")
+	)
+	(pad "2" thru_hole circle
+		(at 5 -6.5)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9bc1411c-e8fb-433b-8ecd-e60c16e8f4e0")
+	)
+	(pad "3" thru_hole circle
+		(at 5 6.5)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb3cb404-f090-4582-a040-1e46aa8e282f")
+	)
+	(pad "4" thru_hole circle
+		(at -5 6.5)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c22624de-abab-4c1b-82a1-d122c10c1c90")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/SSRH7H-M05408.step"
+		(offset
+			(xyz -2 -10 28)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+	(model "C:/Users/user/Desktop/модуль света PLC/SSRH7H-M05408.step"
+		(offset
+			(xyz 2 10 28)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

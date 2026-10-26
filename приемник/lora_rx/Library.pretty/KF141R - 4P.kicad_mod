@@ -1,0 +1,157 @@
+(footprint "KF141R - 4P"
+	(version 20260831)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "49172e90-8e60-467f-a42d-b092362aafec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KF141R - 4P"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d6df6a02-d071-41ed-a257-49f87d8e75e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd281e7d-d9f1-4231-b9d3-2049b47dfb2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2ac8d83-0f06-41c0-8b69-22076150587c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5.13 -5.38)
+		(end 7.67 8.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b25efacd-0c0f-423e-a2ca-9364ebb7a39e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8fa2cdcc-d036-4ef4-ab22-9c9a3256b41d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05152e2b-61b7-441b-aeb6-96257741ed13")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc45213b-2e3a-4753-8cc0-53a00586eb3c")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 -2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "95a8718f-d272-4afe-a0bf-ce0927ee8ea8")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11963ac6-aa47-495b-a2fc-761e00ad09fc")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 -2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a48a3dd1-34e7-46f2-864c-aab6d6265a75")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "61b8efaf-fadb-41b6-ae47-f3bb3d5a2db0")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 -2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "239be3f3-23f2-4b03-9967-e787181991f0")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "927258d2-e340-43ff-9c19-cc1b530996fa")
+	)
+	(embedded_fonts no)
+	(model "D:/ЗАГРУЗКИ/KF141R-2.54-4P.step"
+		(offset
+			(xyz -5.08 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
